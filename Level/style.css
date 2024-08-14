@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.mainPage{
+    background: url(img/background.avif);
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.easy{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 200px;
+    height: 60px;
+    text-shadow: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+.easy{
+    background: #bdc010;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.easy:hover{
+    background: #ffc000;
+    box-shadow: 0 0 5px #ffc000,
+                0 0 20px #ffc000,
+                0 0 60px #ffc000,
+                0 0 100px #ffc000;
+}
+.medium{
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    width: 200px;
+    height: 60px;
+    background: darkcyan;
+    text-shadow: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: auto;
+    cursor: pointer;
+}
+.medium{
+    background: #bdc010;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.medium:hover{
+    background: #ffc000;
+    box-shadow: 0 0 5px #ffc000,
+                0 0 20px #ffc000,
+                0 0 60px #ffc000,
+                0 0 100px #ffc000;
+}
+.hard{
+    position: absolute;
+    top: 54%;
+    left: 45%;
+    width: 200px;
+    height: 60px;
+    background: darkcyan;
+    text-shadow: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    cursor:pointer;
+}
+.hard{
+    background: #bdc010;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.hard:hover{
+    background: #ffc000;
+    box-shadow: 0 0 5px #ffc000,
+                0 0 20px #ffc000,
+                0 0 60px #ffc000,
+                0 0 100px #ffc000;
+}
+.bird{
+    position: absolute;
+    width: 90px;
+    top: 10%;
+    left: 40%;
+}

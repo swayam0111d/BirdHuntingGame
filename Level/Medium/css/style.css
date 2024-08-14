@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: crosshair;
+}
+.mainPage{
+    background: url(../img/background.avif);
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.target img{
+    position: absolute;
+    width: 50px;
+    top: 45%;
+}
+#bird1{
+    top: 35%;
+    left: 100%;
+    animation: b1 15s infinite;
+}
+#bird2{
+    top: 35%;
+    left: 100%;
+    animation: b2 10s infinite;
+}
+#bird3{
+    top: 35%;
+    left: 100%;
+    animation: b3 11s infinite;
+}
+#bird4{
+    top: 35%;
+    left: 100%;
+    animation: b4 12s infinite;
+}
+#bird5{
+    top: 35%;
+    left: 100%;
+    animation: b5 13s infinite;
+}
+#bird6{
+    top: 35%;
+    left: 100%;
+    animation: b6 12s infinite;
+}
+@keyframes b1{
+    0%{
+        left: -10%;
+        top: 35%;
+    }
+    25%{
+        top: 55%;
+    }
+    50%{
+        top: 20%;
+    }
+    75%{
+        top: 45%;
+    }
+    100%{
+        top: 35%;
+        
+    }
+    
+}
+@keyframes b2{
+    0%{
+        left: -10%;
+        top: 40%;
+    }
+    25%{
+        top: 60%;
+    }
+    50%{
+        top: 30%;
+    }
+    75%{
+        top: 55%;
+    }
+    100%{
+        top: 56%;
+        
+    }
+    
+}
+@keyframes b3{
+    0%{
+        left: -10%;
+        top: 56%;
+    }
+    25%{
+        top: 26%;
+    }
+    50%{
+        top: 45%;
+    }
+    75%{
+        top: 76%;
+    }
+    100%{
+        top: 64%;
+        
+    }
+    
+}
+@keyframes b4{
+    0%{
+        left: -10%;
+        top: 65%;
+    }
+    25%{
+        top: 35%;
+    }
+    50%{
+        top: 98%;
+    }
+    75%{
+        top: 74%;
+    }
+    100%{
+        top: 56%;
+        
+    }
+    
+}
+@keyframes b5{
+    0%{
+        left: -10%;
+        top: 53%;
+    }
+    25%{
+        top: 47%;
+    }
+    50%{
+        top: 23%;
+    }
+    75%{
+        top: 12%;
+    }
+    100%{
+        top: 45%;
+        
+    }
+    
+}
+@keyframes b6{
+    0%{
+        left: -10%;
+        top: 65%;
+    }
+    25%{
+        top: 12%;
+    }
+    50%{
+        top: 68%;
+    }
+    75%{
+        top: 36%;
+    }
+    100%{
+        top: 50%;
+        
+    }
+    
+}
+.currentScore{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 90%;
+    left: 5%;
+}
+.currenttimes{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 90%;
+    left: 75%;
+}
